@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('code clone') {
             steps {
-			git credentialsId: 'github', url: 'https://github.com/kartikeyapro/ks.git'
+			git branch: 'main', credentialsId: 'github', url: 'https://github.com/suryavinay4435/mvnpro.git'
                 
             }
             }
